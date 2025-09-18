@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 复制项目代码
 COPY . .
 
-# 设置容器入口
-CMD ["python3", "main.py"]
+# 默认入口点改为 Python
+ENTRYPOINT ["python", "-m", "main"]
