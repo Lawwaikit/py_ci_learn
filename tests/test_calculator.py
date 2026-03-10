@@ -1,5 +1,4 @@
 # flake8: noqa
-import pytest
 from app.calculator import add, sub
 
 
