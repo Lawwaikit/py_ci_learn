@@ -16,6 +16,7 @@ class TestCalculator:
         (10, 20, 30),
         (100, 200, 300),
     ])
+    @pytest.mark.smoke
     @allure.story("加法模块")
     def test_add(self, a, b, expected):
         """测试加法功能"""
