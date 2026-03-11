@@ -16,6 +16,7 @@ def main():
         result = sub(args.a, args.b)
 
     print(f"Result: {result}")
+    print("change something")
 
 
 if __name__ == "__main__":
